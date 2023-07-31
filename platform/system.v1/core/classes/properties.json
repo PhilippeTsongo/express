@@ -1,0 +1,3152 @@
+{
+    "properties": [
+        {
+            "software-author": {
+                "author-name": "Ezechiel Kalengya Ezpk",
+                "author-email": "ezechielkalengya@gmail.com"
+            }
+        },
+        {
+            "software-lang": {
+                "lang": "fr-lang"
+            }
+        },
+        {
+            "software-name": {
+                "fr-lang": "CNS Platform",
+                "eng-lang": "CNS Platform"
+            }
+        },
+
+        {
+            "cns-store-account": {
+                "fr-lang": "Compte CNS Stock",
+                "eng-lang": "CNS Store Account"
+            }
+        },
+        
+
+        {
+            "software": {
+                "fr-lang": "Application",
+                "eng-lang": "Software"
+            }
+        },
+
+        {
+            "package": {
+                "fr-lang": "Abonnement",
+                "eng-lang": "Package"
+            }
+        },
+
+        {
+            "features": {
+                "fr-lang": "Fonctionnalités",
+                "eng-lang": "Features"
+            }
+        },
+
+        {
+            "testimonials": {
+                "fr-lang": "Témoignages",
+                "eng-lang": "Testimonials"
+            }
+        },
+
+        {
+            "business": {
+                "fr-lang": "Entreprise",
+                "eng-lang": "Business"
+            }
+        },
+
+        {
+            "basic": {
+                "fr-lang": "Débutant",
+                "eng-lang": "Basic"
+            }
+        },
+        {
+            "cash-flow": {
+                "fr-lang": "Livre de Caisse",
+                "eng-lang": "Cash Flow"
+            }
+        },
+
+        {
+            "stock-flow": {
+                "fr-lang": "Fiche de Stock",
+                "eng-lang": "Stock Flow"
+            }
+        },
+
+        {
+            "edit-basic-information": {
+                "fr-lang": "Modifier les informations de base",
+                "eng-lang": "Edit Basic Informations"
+            }
+        }, 
+
+        {
+            "register-now": {
+                "fr-lang": "Enregistrez Maintenant",
+                "eng-lang": "Resgister Now"
+            }
+        },
+
+        {
+            "premium": {
+                "fr-lang": "Professionnel",
+                "eng-lang": "Premium"
+            }
+        },
+
+        {
+            "your": {
+                "fr-lang": "Votre",
+                "eng-lang": "Your"
+            }
+        },
+        
+        {
+            "let’s-simplify-your-business": {
+                "fr-lang": "Nous simplifions Vos Affaires",
+                "eng-lang": "Let's Simplify Your Business"
+            }
+        },
+        
+        {
+            "e-commerce-features": {
+                "fr-lang": "Fonctionnalité E-commerce",
+                "eng-lang": "E-commerce feature"
+            }
+        },
+
+        {
+            "get-an-e-commerce,-publish-products-and-get-in-touch-with-people-around-the-globe": {
+                "fr-lang": "Obtenez un e-commerce, publiez des produits et entrez en contact avec des personnes du monde entier",
+                "eng-lang": "Get an e-commerce, Publish products and get in touch with people around the globe"
+            }
+        },
+
+        {
+            "we-provide-access-to-a-management-system-for-your-business": {
+                "fr-lang": "Nous fournissons l'accès à un système de gestion pour votre entreprise",
+                "eng-lang": "We provide access to a management system for your business"
+            }
+        },
+
+        {
+            "management-system": {
+                "fr-lang": "Système de gestion",
+                "eng-lang": "Management System"
+            }
+        },
+
+        {
+            "we-provide-quick-and-detailed-answers-for-your-awesome-business": {
+                "fr-lang": "Nous fournissons des réponses rapides et détaillées pour votre formidable entreprise.",
+                "eng-lang": "We provide quick and detailed answers for your awesome business."
+            }
+        },
+
+        {
+            "secure-services": {
+                "fr-lang": "Services Sécurisés",
+                "eng-lang": "Secure Services"
+            }
+        },
+
+        {
+            "24h/7j-tech-support": {
+                "fr-lang": "Assistance Technique 24h/7jours",
+                "eng-lang": "24h/7j Tech Support"
+            }
+        },
+
+        {
+            "you-deserve-better-business": {
+                "fr-lang": "Vous méritez de meilleures affaires",
+                "eng-lang": "You deserve better business"
+            }
+        },
+
+        {
+            "get-tips-&-tricks-on-quickly": {
+                "fr-lang": "Obtenez rapidement des trucs et astuces sur ce",
+                "eng-lang": "Get tips & tricks on quickly"
+            }
+        },
+
+        {
+            "admin-account": {
+                "fr-lang": "Compte Administrateur",
+                "eng-lang": "Admin Account"
+            }
+        },
+
+        {
+            "admin-accounts": {
+                "fr-lang": "Compte Administrateurs",
+                "eng-lang": "Admin Accounts"
+            }
+        },
+
+        {
+            "user-account": {
+                "fr-lang": "Compte Utilisateur",
+                "eng-lang": "User Account"
+            }
+        },
+
+        {
+            "user-accounts": {
+                "fr-lang": "Comptes Utilisateur",
+                "eng-lang": "User Accounts"
+            }
+        },
+        {
+            "e-commerce-website": {
+                "fr-lang": "Site Web E-commerce",
+                "eng-lang": "E-commerce Website"
+            }
+        },
+        {
+            "products-to-publish": {
+                "fr-lang": "Produits à Publier",
+                "eng-lang": "Products to Publish"
+            }
+        }, 
+
+        {
+            "host-store": {
+                "fr-lang": "De Stockage",
+                "eng-lang": "Host Store"
+            }
+        }, 
+
+        {
+            "on-time-techinical-support-for-24h/7days-just-for-your-business": {
+                "fr-lang": "Assistance technique ponctuelle 24h/7jours rien que pour votre entreprise",
+                "eng-lang": "On-time techinical support for 24h/7days just for your business"
+            }
+        },
+
+        {
+            "this-platform-allows-you-to-deal-with-your-stock(invetory),-purchases,-sales,-finance-management-and-offer-you-an-e-shop.-while-getting-an-general-view-of-your-business-level-in-following-ways": {
+                "fr-lang": "Cette plateforme vous permet de gérer vos Stocks, Achats, Ventes, Gestion Financière et vous propose une e-shop. tout en obtenant une vue générale du niveau de votre entreprise de la manière suivante",
+                "eng-lang": "This platform allows you to deal with your Stock(invetory), Purchases, Sales, Finance Management and offer you an e-shop. while getting an general view of your business level in following ways"
+            }
+        },
+
+        {
+            "stock-management": {
+                "fr-lang": "Système de Gestion de Stock",
+                "eng-lang": "Stock Management System"
+            }
+        },
+
+        {
+            "enter": {
+                "fr-lang": "Entrez",
+                "eng-lang": "Enter"
+            }
+        },
+
+        {
+            "finance-management": {
+                "fr-lang": "Système de Gestion de Finance",
+                "eng-lang": "Finance Management System"
+            }
+        },
+
+        {
+            "purchases-and-sales-management": {
+                "fr-lang": "Gestion des Achats et Ventes",
+                "eng-lang": "Purchases and Sales Management"
+            }
+        },
+
+        {
+            "checking-and-get-reported-on-activities-between-your-branches": {
+                "fr-lang": "Obtenir des rapports sur les activités entre vos succursales",
+                "eng-lang": "Checking and get Reported on Activities between your Branches"
+            }
+        }, 
+        
+        {
+            "powerful-services-for": {
+                "fr-lang": "Des services puissants pour",
+                "eng-lang": "Powerful services for"
+            }
+        },
+        
+        {
+            "your-great-and-valuable-customers": {
+                "fr-lang": "vos grands et précieux clients",
+                "eng-lang": "your great and valuable customers"
+            }
+        },
+
+        {
+            "what-if-you-can-get-your-products-up-to-the-global-level-with-cns-e-commerce?-this-platform-get-you-a-level-up-for-your-business-at-a-higher-view": {
+                "fr-lang": "Et si vous pouviez amener vos produits au niveau mondial avec CNS E-commerce? Cette plateforme vous permet d'élever votre entreprise à un niveau supérieur",
+                "eng-lang": "What if you can get your products up to the Global Level with CNS E-commerce? This platform get you a level up for your Business at a higher view"
+            }
+        },
+        
+        {
+            "upgrading-the-level-of-your-business": {
+                "fr-lang": "Améliorer le niveau de votre entreprise",
+                "eng-lang": "Upgrading the level of your Business"
+            }
+        },
+
+        {
+            "for-another-level-of-interaction-with-people-around": {
+                "fr-lang": "pour un autre niveau d'interaction avec les gens autour",
+                "eng-lang": "for another level of interaction with people around"
+            }
+        },
+        {
+            "we-offer-an-opportunity-of-upgrading-your-business-to-a-premium-level-with-following-aspects": {
+                "fr-lang": "Nous offrons une opportunité de mettre à niveau votre entreprise à un niveau premium avec les aspects suivants",
+                "eng-lang": "We offer an opportunity of Upgrading your business to a premium level with following aspects"
+            }
+        }, 
+
+        {
+            "get-a-free-website-for-your-business": {
+                "fr-lang": "Obtenez un site Web gratuit pour votre entreprise",
+                "eng-lang": "Get a Free Website for Your Business"
+            }
+        },
+
+        {
+            "get-a-free-e-commerce-platform-for-your-business": {
+                "fr-lang": "Obtenez une plateforme de e-commerce gratuite pour votre entreprise",
+                "eng-lang": "Get a Free E-commerce platform for your Business"
+            }
+        },  
+
+        {
+            "simple-pricing-for-your-business": {
+                "fr-lang": "Tarification simple pour votre entreprise",
+                "eng-lang": "Simple Pricing for Your Business"
+            }
+        },
+
+        {
+            "you-need-an-experience-that-is-not-available-elsewhere": {
+                "fr-lang": "Vous avez besoin d'une expérience exceptionelle",
+                "eng-lang": "You need an experience that is not available elsewhere"
+            }
+        },
+
+        {
+            "get-started": {
+                "fr-lang": "Débutez",
+                "eng-lang": "Get started"
+            }
+        },
+
+        {
+            "e-shop": {
+                "fr-lang": "E-commerce",
+                "eng-lang": "E-shop"
+            }
+        },
+        
+        {
+            "we-provide-awesome-services": {
+                "fr-lang": "Nous fournissons des services impressionnants",
+                "eng-lang": "We Provide Awesome Services"
+            }
+        },
+
+        {
+            "pricing": {
+                "fr-lang": "Tarification",
+                "eng-lang": "Pricing"
+            }
+        },
+
+        {
+            "home": {
+                "fr-lang": "Accueil",
+                "eng-lang": "Home"
+            }
+        },
+
+		{
+            "admin": {
+                "fr-lang": "Admin",
+                "eng-lang": "Admin"
+            }
+        },
+        {
+            "administrator": {
+                "fr-lang": "Administrateur",
+                "eng-lang": "Administrator"
+            }
+        },
+        {
+            "administrators": {
+                "fr-lang": "Administrateurs",
+                "eng-lang": "Administrators"
+            }
+        },
+
+        {
+            "create": {
+                "fr-lang": "Créez",
+                "eng-lang": "Create"
+            }
+        },
+        
+        {
+            "an": {
+                "fr-lang": "Un",
+                "eng-lang": "An"
+            }
+        },
+
+        {
+            "a": {
+                "fr-lang": "Un",
+                "eng-lang": "A"
+            }
+        },
+
+        {
+            "ready-to-go": {
+                "fr-lang": "Prêt à Commencer",
+                "eng-lang": "Ready to Get Started"
+            }
+        },
+
+		{
+            "account": {
+                "fr-lang": "Compte",
+                "eng-lang": "Account"
+            }
+        },
+        {
+            "accounts": {
+                "fr-lang": "Comptes",
+                "eng-lang": "Accounts"
+            }
+        },
+
+        {
+            "account-type": {
+                "fr-lang": "Type Du Compte",
+                "eng-lang": "Account Type"
+            }
+        },
+
+        {
+            "account-code": {
+                "fr-lang": "Code Du Compte",
+                "eng-lang": "Account Code"
+            }
+        },
+        
+        {
+            "company-code":{
+                "fr-lang": "Code de l'entreprise",
+                "eng-lang": "Company Code"
+            }
+        },
+
+        {
+            "company-email":{
+                "fr-lang": "Adresse email de l'entreprise",
+                "eng-lang": "Company email"
+            }
+        },
+        
+        {
+            "representative-information":{
+                "fr-lang": "Informations du représentant",
+                "eng-lang": "Representantive information"
+            }
+        },
+
+        {
+            "representative-first-name":{
+                "fr-lang": "prénom du représentant",
+                "eng-lang": "Representantive first name"
+            }
+        },
+
+        {
+            "representative-last-name":{
+                "fr-lang": "nom du représentant",
+                "eng-lang": "Representantive last name"
+            }
+        },
+
+        {
+            "representative-email":{
+                "fr-lang": "Adresse email du représentant",
+                "eng-lang": "Representantive email"
+            }
+        },
+
+        {
+            "representative-telephone":{
+                "fr-lang": "Numéro du représentant",
+                "eng-lang": "Representantive telephone"
+            }
+        },
+
+        {
+            "one-account-with-powerful-services-for-your-great-and-valuable-customers.":{
+                "fr-lang": "Un compte avec des services puissants pour vos grands et précieux clients.",
+                "eng-lang": "One account with powerful services for your great and valuable customers."
+            }
+        },
+        
+
+        {
+            "company-type":{
+                "fr-lang": "Type de l'Entreprise",
+                "eng-lang": "Company Type"
+            }
+        },
+
+        {
+            "company-name":{
+                "fr-lang": "Nom de l'entreprise",
+                "eng-lang": "Company Name"
+            }
+        },
+
+        {
+            "company":{
+                "fr-lang": "Entreprise",
+                "eng-lang": "Company"
+            }
+        },
+
+        {
+            "company-public-email":{
+                "fr-lang": "Adresse Publique de L'entreprise",
+                "eng-lang": "Company Public Email"
+            }
+        },
+
+        {
+            "company-public-telephone":{
+                "fr-lang": "Numéro Publique de L'entreprise",
+                "eng-lang": "Company Public Telephone"
+            }
+        },
+
+        {
+            "company-telephone":{
+                "fr-lang": "Numéro de l'entreprise",
+                "eng-lang": "Company Telephone Number"
+            }
+        },
+
+        {
+            "already-registered":{
+                "fr-lang": "Déjà enregistré",
+                "eng-lang": "Already registered"
+            }
+        },
+
+        {
+            "company-telephone-number":{
+                "fr-lang": "Numéro de téléphone de l'entreprise",
+                "eng-lang": "Company Telephone Number"
+            }
+        },
+        {
+            "your-cns-eshop-website":{
+                "fr-lang": "L'adresse de votre cns-eshop",
+                "eng-lang": "Your cns eshop website"
+            }
+        }, 
+
+        {
+            "company-short-name":{
+                "fr-lang": "Nom abrégé de l'entreprise",
+                "eng-lang": "Company Short Telephone"
+            }
+        },
+
+        {
+            "app-alert": {
+                "fr-lang": "Execution de l'application!",
+                "eng-lang": "Software is running correctly!"
+            }
+        },
+
+        {
+            "and": {
+                "fr-lang": "et",
+                "eng-lang": "and"
+            }
+        },
+        
+        {
+            "or": {
+                "fr-lang": "ou",
+                "eng-lang": "or"
+            }
+        },
+
+        {
+            "category": {
+                "fr-lang": "Catégorie",
+                "eng-lang": "category"
+            }
+        },
+
+        {
+            "invoice": {
+                "fr-lang": "Facture",
+                "eng-lang": "Invoice"
+            }
+        },
+        {
+            "invoices": {
+                "fr-lang": "Factures",
+                "eng-lang": "Invoices"
+            }
+        },
+
+        {
+            "invoices-list": {
+                "fr-lang": "Liste De Factures",
+                "eng-lang": "Invoices List"
+            }
+        },
+
+        {
+            "date-of-invoice": {
+                "fr-lang": "Date De La Facture",
+                "eng-lang": "Date Of Invoice"
+            }
+        },
+
+        {
+            "rwf": {
+                "fr-lang": "Francs Rwandais",
+                "eng-lang": "Rwandan Francs"
+            }
+        },
+        {
+            "payment-condition": {
+                "fr-lang": "Condition de payement",
+                "eng-lang": "Payment Condition"
+            }
+        },
+        {
+            "daily-report": {
+                "fr-lang": "Rapport Journalier",
+                "eng-lang": "Daily Report"
+            }
+        },
+        {
+            "total": {
+                "fr-lang": "Total",
+                "eng-lang": "Total"
+            }
+        },
+        {
+            "cash-outflow": {
+                "fr-lang": "Sorties Caisse",
+                "eng-lang": "Cash Outflows"
+            }
+        },
+		
+        {
+            "users": {
+                "fr-lang": "Utilisateurs",
+                "eng-lang": "Users"
+            }
+        },
+        {
+            "user": {
+                "fr-lang": "Utilisateur",
+                "eng-lang": "User"
+            }
+        },
+        {
+            "purchase": {
+                "fr-lang": "Achat",
+                "eng-lang": "Purchase"
+            }
+        },
+        {
+            "purchases": {
+                "fr-lang": "Achats",
+                "eng-lang": "Purchase"
+            }
+        },
+
+        {
+            "purchase-list": {
+                "fr-lang": "Liste d'achats",
+                "eng-lang": "Purchase List"
+            }
+        },
+
+        {
+            "sale": {
+                "fr-lang": "Vente",
+                "eng-lang": "Sale"
+            }
+        },
+        {
+            "sales": {
+                "fr-lang": "Ventes",
+                "eng-lang": "Sales"
+            }
+        },
+
+        {
+            "sales-this-year": {
+                "fr-lang": "Ventes De Cette Année",
+                "eng-lang": "Sales This Year"
+            }
+        },
+
+        {
+            "date-of-sale": {
+                "fr-lang": "Date De La Vente",
+                "eng-lang": "Date Of Sale"
+            }
+        },
+
+        {
+            "sale-code": {
+                "fr-lang": "Code De La Vente",
+                "eng-lang": "Sale Code"
+            }
+        },
+
+        {
+            "record-new-sale": {
+                "fr-lang": "Nouvelle Vente",
+                "eng-lang": "Record New Sale"
+            }
+        },
+
+        {
+            "all-sales": {
+                "fr-lang": "Toutes Les Ventes",
+                "eng-lang": "All Sales"
+            }
+        },
+
+        {
+            "available": {
+                "fr-lang": "Disponible",
+                "eng-lang": "Available"
+            }
+        },
+
+        {
+            "available-products": {
+                "fr-lang": "Produits Disponibles",
+                "eng-lang": "Available Products"
+            }
+        },
+
+        {
+            "available-medicines": {
+                "fr-lang": "Médicaments Disponibles",
+                "eng-lang": "Available medicines"
+            }
+        },
+
+        {
+            "online-medicines": {
+                "fr-lang": "Médicaments en Ligne",
+                "eng-lang": "Online Medicines"
+            }
+        },
+
+        {
+            "finished": {
+                "fr-lang": "Finis",
+                "eng-lang": "Finished"
+            }
+        },
+        {
+            "week": {
+                "fr-lang": "Semaine",
+                "eng-lang": "Week"
+            }
+        },
+        {
+            "this-week": {
+                "fr-lang": "Cette Semaine",
+                "eng-lang": "This Week"
+            }
+        },
+        {
+            "expired": {
+                "fr-lang": "Expirés",
+                "eng-lang": "Expired"
+            }
+        },
+        {
+            "entrees-caisse": {
+                "fr-lang": "Entrees Caisse",
+                "eng-lang": "Cash inflows"
+            }
+        },
+        {
+            "cashier-balance": {
+                "fr-lang": "Balance Caisse",
+                "eng-lang": "cashier balance"
+            }
+        },
+
+        {
+            "entries": {
+                "fr-lang": "Entrées En Caisse",
+                "eng-lang": "Entries"
+            }
+        },
+
+        {
+            "output": {
+                "fr-lang": "Sorties",
+                "eng-lang": "Output"
+            }
+        },
+
+        {
+            "product": {
+                "fr-lang": "Produit",
+                "eng-lang": "Product"
+            }
+        },
+
+        {
+            "product-category": {
+                "fr-lang": "Catégorie de Produits",
+                "eng-lang": "Product Category"
+            }
+        },
+        
+        {
+            "products": {
+                "fr-lang": "Produits",
+                "eng-lang": "Products"
+            }
+        },
+        
+        {
+            "new-medicine": {
+                "fr-lang": "Nouveau Médicament",
+                "eng-lang": "New Medecine"
+            }
+        },
+
+        {
+            "add-new-medicine": {
+                "fr-lang": "Nouveau Médicament",
+                "eng-lang": "New Medecine"
+            }
+        },
+
+        {
+            "medicine": {
+                "fr-lang": "Médicament",
+                "eng-lang": "Medicine"
+            }
+        },
+
+        {
+            "medicines": {
+                "fr-lang": "Médicaments",
+                "eng-lang": "Medicine"
+            }
+        },
+
+        {
+            "medicine-name": {
+                "fr-lang": "Nom Du Médicament",
+                "eng-lang": "Medicine"
+            }
+        },
+
+        {
+            "medicine-unit": {
+                "fr-lang": "Unité Du Médicament",
+                "eng-lang": "Medicine Unity"
+            }
+        },
+
+        {
+            "medicine-shelf": {
+                "fr-lang": "Etagère Du Médicament",
+                "eng-lang": "Medicine Shelf"
+            }
+        },
+        {
+            "medicine-code": {
+                "fr-lang": "Code Du Médicament",
+                "eng-lang": "Medicine Code"
+            }
+        },
+
+        {
+            "medicine-description": {
+                "fr-lang": "Déscription Du Médicament",
+                "eng-lang": "Medicine Description"
+            }
+        },
+
+        {
+            "medicine-information": {
+                "fr-lang": "Informations Du Médicament",
+                "eng-lang": "Medicine Information"
+            }
+        },
+
+        {
+            "total-medicines": {
+                "fr-lang": "Nombre De Médicaments",
+                "eng-lang": "Total Medicines"
+            }
+        },
+
+        {
+            "record-bulk-medicine": {
+                "fr-lang": "Enregistrement Multiple",
+                "eng-lang": "Record Bulk Medicine"
+            }
+        },
+
+        {
+            "all-medicines": {
+                "fr-lang": "Tous Les Médicaments",
+                "eng-lang": "All Medicines"
+            }
+        },
+
+        {    "medication": {
+                "fr-lang": "Médicaments",
+                "eng-lang": "Medication"
+            }
+        },
+        
+
+        {
+            "medications": {
+                "fr-lang": "Médicaments",
+                "eng-lang": "Medication"
+            }
+        },
+
+        {
+            "dashboard": {
+                "fr-lang": "Accueil",
+                "eng-lang": "Dashboard"
+            }
+        },
+        {
+            "list": {
+                "fr-lang": "Liste",
+                "eng-lang": "List"
+            }
+        },
+
+        {
+            "branch-information": {
+                "fr-lang": "Informations De La Branche",
+                "eng-lang": "Branch Information"
+            }
+        },
+
+        {
+            "new": {
+                "fr-lang": "Nouveau",
+                "eng-lang": "New"
+            }
+        },
+        {
+            "employee": {
+                "fr-lang": "Employe",
+                "eng-lang": "Employee"
+            }
+        },
+        {
+            "employees": {
+                "fr-lang": "Employes",
+                "eng-lang": "Employees"
+            }
+        },
+        {
+            "client-information": {
+                "fr-lang": "Information Du Client",
+                "eng-lang": "Client Information"
+            }
+        },
+
+        {
+            "client-name": {
+                "fr-lang": "Nom Du Client",
+                "eng-lang": "Client Name"
+            }
+        },
+
+        {
+            "client-address": {
+                "fr-lang": "Adresse Du Client",
+                "eng-lang": "Client Address"
+            }
+        },
+
+        {
+            "client-email": {
+                "fr-lang": "Adresse Email Du Client",
+                "eng-lang": "Client Email"
+            }
+        },
+
+
+        {
+            "client-telephone": {
+                "fr-lang": "Numéro Du Client",
+                "eng-lang": "Client Telephone"
+            }
+        },
+        {
+            "stock": {
+                "fr-lang": "Stock",
+                "eng-lang": "Stock"
+            }
+        }, 
+
+        {
+            "stock-status": {
+                "fr-lang": "Etat du Stock",
+                "eng-lang": "Stock Status"
+            }
+        },
+
+        {
+            "store": {
+                "fr-lang": "Stock",
+                "eng-lang": "Store"
+            }
+        },
+
+        {
+            "branch": {
+                "fr-lang": "Branche",
+                "eng-lang": "Branch"
+            }
+        },
+       
+        {
+            "shelf": {
+                "fr-lang": "Etagère",
+                "eng-lang": "Shelf"
+            }
+        },
+        
+        {
+            "shelves": {
+                "fr-lang": "Etagères",
+                "eng-lang": "Shelves"
+            }
+        },
+
+        {
+            "product-categories": {
+                "fr-lang": "Catégories De Produits",
+                "eng-lang": "Products Categories"
+            }
+        },
+
+        {
+            "categories-list": {
+                "fr-lang": "Liste De Catégories",
+                "eng-lang": "Categories List"
+            }
+        },
+
+        {
+            "sub-categories-list": {
+                "fr-lang": "Liste De Sous Catégories",
+                "eng-lang": "Sub Category List"
+            }
+        },
+
+        {
+            "sub-category": {
+                "fr-lang": "Sous Catégorie",
+                "eng-lang": "Sub-Category"
+            }
+        },
+
+        {
+            "sub-categories": {
+                "fr-lang": "Sous Catégories",
+                "eng-lang": "Sub-Categories"
+            }
+        }, 
+        
+        {
+            "sub-category-name": {
+                "fr-lang": "Nom De La Sous Catégorie",
+                "eng-lang": "Sub Category Name"
+            }
+        },
+
+        {
+            "record-purchases": {
+                "fr-lang": "Enregistrement d'chats",
+                "eng-lang": "Record Purchases"
+            }
+        },
+
+        {
+            "invoices-list": {
+                "fr-lang": "Liste de Factures",
+                "eng-lang": "Invoices List"
+            }
+        },
+
+        {
+            "sale-invoice-information": {
+                "fr-lang": "Informations de la Vente",
+                "eng-lang": "sale-invoice-information"
+            }
+        },
+
+        {
+            "caissier": {
+                "fr-lang": "Caisse",
+                "eng-lang": "Cashier"
+            }
+        },
+        {
+            "inputs": {
+                "fr-lang": "Entrées",
+                "eng-lang": "Inputs"
+            }
+        },
+
+        {
+            "cash-inputs": {
+                "fr-lang": "Entrées En Caisse",
+                "eng-lang": "Cash Entries"
+            }
+        },
+
+        {
+            "cash-output": {
+                "fr-lang": "Sorties",
+                "eng-lang": "Cash Outputs"
+            }
+        },
+
+        {
+            "cash-balance": {
+                "fr-lang": "Balance",
+                "eng-lang": "Cash Balance"
+            }
+        },
+
+        {
+            "outputs": {
+                "fr-lang": "Sorties",
+                "eng-lang": "Outputs"
+            }
+        },
+        {
+            "balance": {
+                "fr-lang": "Balance",
+                "eng-lang": "Balance"
+            }
+        },
+        {
+            "reports": {
+                "fr-lang": "Rapports",
+                "eng-lang": "Reports"
+            }
+        },
+
+        {
+            "language": {
+                "fr-lang": "Langue",
+                "eng-lang": "Language "
+            }
+        },
+
+        {
+            "choose-language": {
+                "fr-lang": "Choisir Langue d'Utilisation",
+                "eng-lang": "Choose Language "
+            }
+        },
+        {
+            "settings": {
+                "fr-lang": "Parametres",
+                "eng-lang": "Settings"
+            }
+        },
+        {
+            "signout": {
+                "fr-lang": "Déconnexion",
+                "eng-lang": "Sign Out"
+            }
+        },
+        {
+            "logout": {
+                "fr-lang": "Déconnexion",
+                "eng-lang": "Sign Out"
+            }
+        },
+        {
+            "login": {
+                "fr-lang": "Connexion",
+                "eng-lang": "Sign In"
+            }
+        },
+        {
+            "sign-in": {
+                "fr-lang": "Connexion",
+                "eng-lang": "Sign In"
+            }
+        },
+        {
+            "change": {
+                "fr-lang": "Changer",
+                "eng-lang": "Change"
+            }
+        },
+        {
+            "password": {
+                "fr-lang": "Mot de Passe",
+                "eng-lang": "Password"
+            }
+        },
+
+        {
+            "confirm-password": {
+                "fr-lang": "confirmez le mot de passe",
+                "eng-lang": "confirm Password"
+            }
+        },
+
+        {
+            "reset-password": {
+                "fr-lang": "reinitialiser mot de passe",
+                "eng-lang": "reset password"
+            }
+        },
+        {
+            "label-changePassword": {
+                "fr-lang": "Veuillez definir votre Mot de Passe confidentiel!",
+                "eng-lang": "Please define your confidential Password!"
+            }
+        },
+        {
+            "change-password-success": {
+                "fr-lang": "Votre Mot de Passe a ete change correctement!",
+                "eng-lang": "Your Password has been changed successfully!"
+            }
+        },
+        {
+            "lost-password": {
+                "fr-lang": "Mot de Passe oublie?",
+                "eng-lang": "Lost your password?"
+            }
+        },
+        {
+            "login-label-signin": {
+                "fr-lang": "Veuillez vous connecter pour acceder a votre Compte!",
+                "eng-lang": "Sign In now and access your Account!"
+            }
+        },
+        {
+            "login-desactivated": {
+                "fr-lang": "Votre Compte est Desactive. Contactez l'administrateur!",
+                "eng-lang": "Your Account is desactivated. Contact the Administrator!"
+            }
+        },
+        {
+            "login-invalid": {
+                "fr-lang": "Votre Email ou Mot de Passe est incorrect!",
+                "eng-lang": "Your Email or Password is invalid!"
+            }
+        },
+        {
+            "welcome": {
+                "fr-lang": "Bienvenu(e)!",
+                "eng-lang": "Welcome!"
+            }
+        },
+        {
+            "register": {
+                "fr-lang": "Enregistrez",
+                "eng-lang": "Register"
+            }
+        },
+
+        {
+            "name": {
+                "fr-lang": "Nom",
+                "eng-lang": "Name"
+            }
+        },
+
+        {
+            "names": {
+                "fr-lang": "Noms",
+                "eng-lang": "Names"
+            }
+        },
+        {
+            "firstname": {
+                "fr-lang": "Prénom",
+                "eng-lang": "First Name"
+            }
+        },
+
+        {
+            "lastname": {
+                "fr-lang": "Nom",
+                "eng-lang": "Last Name"
+            }
+        },
+
+        {
+            "first-name": {
+                "fr-lang": "Prénom",
+                "eng-lang": "First Name"
+            }
+        },
+
+        {
+            "last-name": {
+                "fr-lang": "Nom",
+                "eng-lang": "Last Name"
+            }
+        },
+
+        {
+            "email": {
+                "fr-lang": "Email",
+                "eng-lang": "Email"
+            }
+        },
+
+        {
+            "email-address": {
+                "fr-lang": "Adresse Email",
+                "eng-lang": "Email Address"
+            }
+        },
+
+        {
+            "number": {
+                "fr-lang": "numéro",
+                "eng-lang": "number"
+            }
+        },
+
+        {
+            "telephone-number": {
+                "fr-lang": "Téléphone",
+                "eng-lang": "Telephone"
+            }
+        },
+
+        {
+            "telephone": {
+                "fr-lang": "Téléphone",
+                "eng-lang": "Telephone"
+            }
+        },
+
+        {
+            "phone": {
+                "fr-lang": "Téléphone",
+                "eng-lang": "Telephone"
+            }
+        },
+        {
+            "address": {
+                "fr-lang": "Adresse",
+                "eng-lang": "Address"
+            }
+        },
+        
+        {
+            "send-request": {
+                "fr-lang": "Envoyer la Demande",
+                "eng-lang": "Send Request"
+            }
+        },
+
+        {
+            "send": {
+                "fr-lang": "Envoyez",
+                "eng-lang": "Send"
+            }
+        },
+        
+        {
+            "select": {
+                "fr-lang": "Selectionnez",
+                "eng-lang": "Select"
+            }
+        },
+
+        {
+            "address-information": {
+                "fr-lang": "Adresse",
+                "eng-lang": "Address Information"
+            }
+        },
+        
+        {
+            "user-type": {
+                "fr-lang": "Type d'Utilisateur",
+                "eng-lang": "User Type"
+            }
+        },
+        {
+            "form": {
+                "fr-lang": "Formulaire",
+                "eng-lang": "Form"
+            }
+        },
+
+        {
+            "unit": {
+                "fr-lang": "Unité",
+                "eng-lang": "Unit"
+            }
+        },
+
+        {
+            "unities": {
+                "fr-lang": "Unités",
+                "eng-lang": "Unities"
+            }
+        },
+
+        {
+            "unit-name": {
+                "fr-lang": "Nom de L'unité",
+                "eng-lang": "Unit Name"
+            }
+        },
+        {
+            "shelf-name": {
+                "fr-lang": "Nom de l'Etagère",
+                "eng-lang": "Shelf Name"
+            }
+        },
+        {
+            "shelf-description": {
+                "fr-lang": "Déscription De L'etagère",
+                "eng-lang": "Shelf Description"
+            }
+        },
+        {
+            "add-new-shelf": {
+                "fr-lang": "Nouvelle Etagère",
+                "eng-lang": "Add New Shelf"
+            }
+        },
+        
+        {
+            "status": {
+                "fr-lang": "Statut",
+                "eng-lang": "Status"
+            }
+        },
+        {
+            "state": {
+                "fr-lang": "Etat",
+                "eng-lang": "State"
+            }
+        },
+        {
+            "active": {
+                "fr-lang": "Active",
+                "eng-lang": "Active"
+            }
+        },
+        {
+            "activate": {
+                "fr-lang": "Activer",
+                "eng-lang": "Activate"
+            }
+        },
+        {
+            "activated": {
+                "fr-lang": "Active",
+                "eng-lang": "Activated"
+            }
+        },
+        {
+            "deactive": {
+                "fr-lang": "Desactive",
+                "eng-lang": "Desactive"
+            }
+        },
+        {
+            "deactivate": {
+                "fr-lang": "Desactiver",
+                "eng-lang": "Desactivate"
+            }
+        },
+        {
+            "deactivated": {
+                "fr-lang": "Desactive",
+                "eng-lang": "Desactivated"
+            }
+        },
+        {
+            "old": {
+                "fr-lang": "Ancien",
+                "eng-lang": "Old"
+            }
+        },
+        {
+            "confirm": {
+                "fr-lang": "Confimer",
+                "eng-lang": "Confirm"
+            }
+        },
+        {
+            "medicine": {
+                "fr-lang": "Médicament",
+                "eng-lang": "Medicine"
+            }
+        },
+        {
+            "date": {
+                "fr-lang": "Date",
+                "eng-lang": "Date"
+            }
+        },
+
+        {
+            "date-of-join": {
+                "fr-lang": "Date d'inscription",
+                "eng-lang": "Joining Date"
+            }
+        },
+
+        {
+            "designation": {
+                "fr-lang": "Désignation",
+                "eng-lang": "Designation"
+            }
+        },
+
+        {
+            "quantity": {
+                "fr-lang": "Quantité",
+                "eng-lang": "Quantity"
+            }
+        },
+
+        {
+            "quantities": {
+                "fr-lang": "Quantités",
+                "eng-lang": "Quantities"
+            }
+        },
+
+        {
+            "pau": {
+                "fr-lang": "PAU",
+                "eng-lang": "PAU"
+            }
+        },
+        {
+            "pat": {
+                "fr-lang": "PAT",
+                "eng-lang": "PAT"
+            }
+        },
+        {
+            "pvu": {
+                "fr-lang": "PVU",
+                "eng-lang": "PVU"
+            }
+        },
+        {
+            "pvt": {
+                "fr-lang": "PVT",
+                "eng-lang": "PVT"
+            }
+        },
+        {
+            "reset": {
+                "fr-lang": "Réinitialiser",
+                "eng-lang": "Reset"
+            }
+        },
+
+        {
+            "cancel": {
+                "fr-lang": "Annuler",
+                "eng-lang": "Cancel"
+            }
+        },
+
+        {
+            "update": {
+                "fr-lang": "Modifier",
+                "eng-lang": "Update"
+            }
+        },
+        {
+            "edit": {
+                "fr-lang": "Modifier",
+                "eng-lang": "Edit"
+            }
+        },
+        {
+            "modify": {
+                "fr-lang": "Modifier",
+                "eng-lang": "Modify"
+            }
+        },
+        {
+            "btn-update": {
+                "fr-lang": "Enregistrez les Modifications",
+                "eng-lang": "Save Changes"
+            }
+        },
+        {
+            "delete": {
+                "fr-lang": "Supprimer",
+                "eng-lang": "Delete"
+            }
+        },
+        {
+            "profile": {
+                "fr-lang": "Profile",
+                "eng-lang": "Profile"
+            }
+        },
+        {
+            "print": {
+                "fr-lang": "Imprimer",
+                "eng-lang": "Print"
+            }
+        },
+        {
+            "direct": {
+                "fr-lang": "Directement",
+                "eng-lang": "Direct"
+            }
+        },
+        {
+            "directly": {
+                "fr-lang": "Directement",
+                "eng-lang": "Directly"
+            }
+        },
+        {
+            "this": {
+                "fr-lang": "cet",
+                "eng-lang": "this"
+            }
+        },
+        {
+            "these": {
+                "fr-lang": "Ceux",
+                "eng-lang": "these"
+            }
+        },
+
+        
+        {
+            "year": {
+                "fr-lang": "annee",
+                "eng-lang": "year"
+            }
+        },
+        {
+            "yearly": {
+                "fr-lang": "annuelle",
+                "eng-lang": "yearly"
+            }
+        },
+
+        {
+            "per": {
+                "fr-lang": "Par",
+                "eng-lang": "Per"
+            }
+        },
+
+        {
+            "month": {
+                "fr-lang": "mois",
+                "eng-lang": "month"
+            }
+        },
+        {
+            "months": {
+                "fr-lang": "mois",
+                "eng-lang": "months"
+            }
+        },
+        {
+            "monthly": {
+                "fr-lang": "mensuel",
+                "eng-lang": "monthly"
+            }
+        },
+        
+        {
+            "add": {
+                "fr-lang": "Ajoutez",
+                "eng-lang": "Add"
+            }
+        },
+
+        {
+            "added": {
+                "fr-lang": "Ajoutés",
+                "eng-lang": "Added"
+            }
+        },
+
+        {
+            "website": {
+                "fr-lang": "Site Web",
+                "eng-lang": "Website"
+            }
+        },
+
+        {
+            "Websites": {
+                "fr-lang": "Sites Web",
+                "eng-lang": "Websites"
+            }
+        },
+
+        {
+            "my": {
+                "fr-lang": "Mon",
+                "eng-lang": "My"
+            }
+        },
+
+        {
+            "our": {
+                "fr-lang": "Notre",
+                "eng-lang": "Our"
+            }
+        },
+        
+        {
+            "that": {
+                "fr-lang": "Ce",
+                "eng-lang": "that"
+            }
+        },
+
+        {
+            "country": {
+                "fr-lang": "Pays",
+                "eng-lang": "Country"
+            }
+        },
+
+        {
+            "countries": {
+                "fr-lang": "Pays",
+                "eng-lang": "Countries"
+            }
+        },
+
+        {
+            "City": {
+                "fr-lang": "Ville",
+                "eng-lang": "City"
+            }
+        },
+
+        {
+            "cities": {
+                "fr-lang": "Villes",
+                "eng-lang": "Cities"
+            }
+        },
+
+        {
+            "address": {
+                "fr-lang": "Addresse",
+                "eng-lang": "Address"
+            }
+        },
+
+        {
+            "addresses": {
+                "fr-lang": "Addresses",
+                "eng-lang": "Adrresses"
+            }
+        },
+
+        {
+            "record": {
+                "fr-lang": "Enregistrez",
+                "eng-lang": "record"
+            }
+        },
+
+        {
+            "bulk-record": {
+                "fr-lang": "Enregistrement Multiple",
+                "eng-lang": "bulk-record"
+            }
+        },
+        
+        {
+            "subscription": {
+                "fr-lang": "Souscription",
+                "eng-lang": "Subscription"
+            }
+        },
+
+        {
+            "sub": {
+                "fr-lang": "Sous",
+                "eng-lang": "Sub"
+            }
+        },
+
+        {
+            "those": {
+                "fr-lang": "Ceux",
+                "eng-lang": "those"
+            }
+        },
+
+        {
+            "add-a-new-account": {
+                "fr-lang": "Nouveau Compte",
+                "eng-lang": "Add New Account"
+            }
+        },
+
+        {
+            "medicines-list": {
+                "fr-lang": "Liste de Medecines",
+                "eng-lang": "Medicines List"
+            }
+        },
+
+        {
+            "unit-list": {
+                "fr-lang": "Liste d'unités",
+                "eng-lang": "Unit List"
+            }
+        },
+
+        {
+            "shelf-list": {
+                "fr-lang": "Liste d'étagères",
+                "eng-lang": "Shelf List"
+            }
+        },
+
+        {
+            "category-list": {
+                "fr-lang": "Liste de catégories",
+                "eng-lang": "Category List"
+            }
+        },
+
+        {
+            "category-description": {
+                "fr-lang": "Déscription De La Catégorie",
+                "eng-lang": "Category Description"
+            }
+        },
+
+        {
+            "category-name": {
+                "fr-lang": "Nom De La Catégorie",
+                "eng-lang": "Category Name"
+            }
+        },
+
+        {
+            "add-new-category": {
+                "fr-lang": "Nouvelle Catégorie",
+                "eng-lang": "Add New Category"
+            }
+        },
+
+        {
+            "logistic": {
+                "fr-lang": "Logistique",
+                "eng-lang": "Logistic"
+            }
+        },
+
+        {
+            "logistics": {
+                "fr-lang": "Logistiques",
+                "eng-lang": "Logistics"
+            }
+        },
+
+        {
+            "logistics-list": {
+                "fr-lang": "Liste De Logistiques",
+                "eng-lang": "Logistic List"
+            }
+        },
+        {
+            "logistic-name": {
+                "fr-lang": "Nom Du Logistique",
+                "eng-lang": "Logistic Name"
+            }
+        },
+
+        {
+            "new-logistic": {
+                "fr-lang": "Nouveau Logistique",
+                "eng-lang": "New Logistic"
+            }
+        },
+
+        {
+            "edit-logistic": {
+                "fr-lang": "Modifier Un Logistique",
+                "eng-lang": "Edit Logistic"
+            }
+        },
+
+        {
+            "expenses-list": {
+                "fr-lang": "Liste De Dépenses",
+                "eng-lang": "Expenses List"
+            }
+        },
+
+        {
+            "new-expense": {
+                "fr-lang": "Nouvelle Dépense",
+                "eng-lang": "Expenses List"
+            }
+        },
+
+        {
+            "all-expenses": {
+                "fr-lang": "Toutes Les Dépenses",
+                "eng-lang": "All Expenses"
+            }
+        },
+
+        {
+            "expense-name": {
+                "fr-lang": "Nom De la Dépense",
+                "eng-lang": "Expenses Name"
+            }
+        },
+
+        {
+            "expense-date": {
+                "fr-lang": "Date De la Dépense",
+                "eng-lang": "Expense Date"
+            }
+        },
+
+        {
+            "expense-description": {
+                "fr-lang": "Déscription De La Dépense",
+                "eng-lang": "Expense description"
+            }
+        },
+
+        {
+            "expense": {
+                "fr-lang": "Dépense",
+                "eng-lang": "Expense"
+            }
+        },
+        {
+            "expenses": {
+                "fr-lang": "Dépenses",
+                "eng-lang": "Expenses"
+            }
+        },
+        
+        {
+            "accounts-list": {
+                "fr-lang": "Liste De Comptes",
+                "eng-lang": "Expenses List"
+            }
+        },
+
+        {
+            "purchases-list": {
+                "fr-lang": "Liste d'achats",
+                "eng-lang": "Purchases List"
+            }
+        },
+
+        {
+            "purchase-date": {
+                "fr-lang": "Date d'achat",
+                "eng-lang": "Purchase Date"
+            }
+        },
+        
+        {
+            "purchase-items-information": {
+                "fr-lang": "Informations de Produits",
+                "eng-lang": "Purchase Products Information"
+            }
+        },
+
+        {
+            "bulk-record-purchases": {
+                "fr-lang": "Enregistrement Multiple",
+                "eng-lang": "Record Bulk Purchases"
+            }
+        },
+
+        {
+            "bulk-record-products": {
+                "fr-lang": "Enregistrement Multiple",
+                "eng-lang": "Bulk Record Products"
+            }
+        },
+
+        {
+            "bulk-record-purchases": {
+                "fr-lang": "Enregistrement Multiple",
+                "eng-lang": "Bulk Record Purchase"
+            }
+        },
+
+        {
+            "products-category": {
+                "fr-lang": "Catégorie de produits",
+                "eng-lang": "Category Products"
+            }
+        }, 
+        
+        {
+            "sub-category": {
+                "fr-lang": "Sous Catégorie",
+                "eng-lang": "Sub Category"
+            }
+        },
+
+        {
+            "new-sale": {
+                "fr-lang": "Nouvelle Vente",
+                "eng-lang": "New Sale"
+            }
+        }, 
+
+        {
+            "invoice-list": {
+                "fr-lang": "Liste de Factures",
+                "eng-lang": "Invoices List"
+            }
+        }, 
+
+        {
+            "products-finished": {
+                "fr-lang": "Produits Déjà Finis",
+                "eng-lang": "Product Finished"
+            }
+        },
+
+        {
+            "products-name": {
+                "fr-lang": "Nom Du Produit",
+                "eng-lang": "Product Name"
+            }
+        },
+
+        {
+            "products-unit": {
+                "fr-lang": "Unité Du Produit",
+                "eng-lang": "Product Unit"
+            }
+        },
+
+        {
+            "record-new-purchase": {
+                "fr-lang": "Nouvel Achat",
+                "eng-lang": "Record New Purchase"
+            }
+        },
+
+        {
+            "debts": {
+                "fr-lang": "Dettes",
+                "eng-lang": "Debts"
+            }
+        },
+
+        {
+            "profit": {
+                "fr-lang": "Bénéfices",
+                "eng-lang": "Profit"
+            }
+        },
+
+        {
+            "new-purchase": {
+                "fr-lang": "Nouvel Achat",
+                "eng-lang": "New Purchase"
+            }
+        },
+
+        {
+            "record-purchase": {
+                "fr-lang": "Enregistrez L' Achat",
+                "eng-lang": "Record Purchase"
+            }
+        },
+
+        {
+            "date-of-stock-purchase": {
+                "fr-lang": "Date D'achat",
+                "eng-lang": "Date Of Stock Purchase"
+            }
+        },
+
+        {
+            "sales-list": {
+                "fr-lang": "Liste de Ventes",
+                "eng-lang": "Sales List"
+            }
+        },
+
+        {
+            "invoices-list": {
+                "fr-lang": "Liste de Factures",
+                "eng-lang": "Invoices List"
+            }
+        },
+
+        {
+            "expire-soon": {
+                "fr-lang": "Expirer Bientôt",
+                "eng-lang": "Expire Soon"
+            }
+        },
+
+        {
+            "medicines-expired": {
+                "fr-lang": "Médicaments expirés",
+                "eng-lang": "Medicines Expired"
+            }
+        },
+        
+        {
+            "online-product": {
+                "fr-lang": "Produits En Ligne",
+                "eng-lang": "Online Products"
+            }
+        },
+
+        {
+            "social-media-information": {
+                "fr-lang": "Réseaux sociaux",
+                "eng-lang": "Social Media Informations"
+            }
+        },
+
+        {
+            "about": {
+                "fr-lang": "A Propos",
+                "eng-lang": "About"
+            }
+        },
+
+        {
+            "about-us": {
+                "fr-lang": "A Propos de Nous",
+                "eng-lang": "About Us"
+            }
+        },
+
+        {
+            "contact-us": {
+                "fr-lang": "Contactez-nous",
+                "eng-lang": "Contact Us"
+            }
+        },
+
+        {
+            "currency": {
+                "fr-lang": "Monnaie",
+                "eng-lang": "Currency"
+            }
+        },
+
+        {
+            "basic-informations": {
+                "fr-lang": "Informations de base",
+                "eng-lang": "Basic Informations"
+            }
+        },
+
+        {
+            "do-you-want-to": {
+                "fr-lang": "Voulez-vous ",
+                "eng-lang": "Do you want to "
+            }
+        },
+        {
+            "no-result": {
+                "fr-lang": "Aucun R\u00e9sultat...",
+                "eng-lang": "No Result..."
+            }
+        },
+
+        {
+            "thank-you": {
+                "fr-lang": "Merci",
+                "eng-lang": "Thank you"
+            }
+        },
+
+		{
+            "key": {
+                "fr-lang": "",
+                "eng-lang": ""
+            }
+        },
+
+		{
+            "search": {
+                "fr-lang": "Recherche",
+                "eng-lang": "search"
+            }
+        },
+
+        {
+            "advanced-search": {
+                "fr-lang": "Recherche Avancée",
+                "eng-lang": "Advanced Search"
+            }
+        },
+
+        {
+            "filter": {
+                "fr-lang": "Filtrer",
+                "eng-lang": "Filter"
+            }
+        },
+
+        {
+            "sort": {
+                "fr-lang": "Trier",
+                "eng-lang": "Sort"
+            }
+        },
+
+        {
+            "french": {
+                "fr-lang": "Français",
+                "eng-lang": "French"
+            }
+        },
+
+        {
+            "english": {
+                "fr-lang": "Anglais",
+                "eng-lang": "English"
+            }
+        },
+
+        {
+            "english": {
+                "fr-lang": "Genre",
+                "eng-lang": "Gender"
+            }
+        },
+
+        {
+            "male": {
+                "fr-lang": "Homme",
+                "eng-lang": "Male"
+            }
+        },
+
+        {
+            "female": {
+                "fr-lang": "Femme",
+                "eng-lang": "Female"
+            }
+        },
+
+        {
+            "save": {
+                "fr-lang": "Enregistrez",
+                "eng-lang": "Save"
+            }
+        },
+
+        {
+            "tax": {
+                "fr-lang": "Taxe",
+                "eng-lang": "Tax"
+            }
+        },
+
+        {
+            "taxes": {
+                "fr-lang": "Taxes",
+                "eng-lang": "Taxes"
+            }
+        },
+
+        {
+            "in": {
+                "fr-lang": "En",
+                "eng-lang": "In"
+            }
+        },
+
+        {
+            "by": {
+                "fr-lang": "Par",
+                "eng-lang": "By"
+            }
+        },
+
+        {
+            "for": {
+                "fr-lang": "Pour",
+                "eng-lang": "For"
+            }
+        },
+
+        {
+            "already": {
+                "fr-lang": "Déjà",
+                "eng-lang": "Already"
+            }
+        },
+
+        {
+            "all": {
+                "fr-lang": "Tous",
+                "eng-lang": "All"
+            }
+        },
+
+        {
+            "price": {
+                "fr-lang": "Prix",
+                "eng-lang": "Price"
+            }
+        },
+
+        {
+            "prices": {
+                "fr-lang": "Prix",
+                "eng-lang": "prices"
+            }
+        },
+
+        {
+            "unit-price": {
+                "fr-lang": "Prix Unitaire",
+                "eng-lang": "Unit Price"
+            }
+        },
+
+        
+
+        {
+            "total-price": {
+                "fr-lang": "Prix Total",
+                "eng-lang": "Total Price"
+            }
+        },
+
+        {
+            "sub-total": {
+                "fr-lang": "Sous Total",
+                "eng-lang": "Sub Total"
+            }
+        },
+
+
+        {
+            "rights": {
+                "fr-lang": "Droits",
+                "eng-lang": "rights"
+            }
+        },
+
+        {
+            "reserved": {
+                "fr-lang": "Réservés",
+                "eng-lang": "Reserved"
+            }
+        },
+
+        {
+            "online-products": {
+                "fr-lang": "Produits Publiés En Ligne",
+                "eng-lang": "Online Products"
+            }
+        },
+
+        {
+            "online-orders": {
+                "fr-lang": "Commandes En Ligne",
+                "eng-lang": "Online Orders"
+            }
+        },
+
+        {
+            "load-more": {
+                "fr-lang": "Voir Plus",
+                "eng-lang": "Load More"
+            }
+        },
+
+        {
+            "add-more": {
+                "fr-lang": "Ajoutez Plus",
+                "eng-lang": "Add More"
+            }
+        },
+
+        {
+            "view-all": {
+                "fr-lang": "Voir Tous",
+                "eng-lang": "View more"
+            }
+        },
+        
+        {
+            "account-name": {
+                "fr-lang": "Nom Du Compte",
+                "eng-lang": "Account Name"
+            }
+        },
+
+        {
+            "company-account": {
+                "fr-lang": "Compte Entreprise",
+                "eng-lang": "Company Account"
+            }
+        },
+        
+        {
+            "company-address": {
+                "fr-lang": "Adresse Entreprise",
+                "eng-lang": "Company Address"
+            }
+        },
+
+        {
+            "today": {
+                "fr-lang": "Aujourdh'ui",
+                "eng-lang": "Today"
+            }
+        },
+
+        {
+            "amortization-date": {
+                "fr-lang": "Date D'amortissement",
+                "eng-lang": "Amortization Date"
+            }
+        },
+
+        {
+            "ref-number": {
+                "fr-lang": "Numéro De Référence",
+                "eng-lang": "Ref Number"
+            }
+        },
+
+        {
+            "amount": {
+                "fr-lang": "Montant",
+                "eng-lang": "Amount"
+            }
+        },
+
+        {
+            "financial-statistics": {
+                "fr-lang": "Statistisque financière",
+                "eng-lang": "Financial Statistics"
+            }
+        },
+
+        {
+            "Notice": {
+                "fr-lang": "NB.:",
+                "eng-lang": "Notice"
+            }
+        }, 
+
+        {
+            "this-graph-shows-purchases-sales-benefits-of-your-stock": {
+                "fr-lang": "Cette graphique illustre les achats, ventes et les bénéfices",
+                "eng-lang": "This graph shows purchases pales benefits of your stock"
+            }
+        }, 
+
+        {
+            "instore-and-online-statistics": {
+                "fr-lang": "Statistique du sotck en ligne et physique",
+                "eng-lang": "Instore And Online Statistics"
+            }
+        }, 
+
+        {
+            "purchases-vs-sales": {
+                "fr-lang": "Achats VS Ventes",
+                "eng-lang": "Purchases VS sales"
+            }
+        }, 
+
+        {
+            "this-graph-shows-financial-evolution": {
+                "fr-lang": "Cette graphique illustre l'évolution financière",
+                "eng-lang": "This graph shows financial evolution"
+            }
+        },
+
+        {
+            "top-5-most-saled-products": {
+                "fr-lang": "Top 5 de produits les plus vendus",
+                "eng-lang": "Top 5 most saled product"
+            }
+        }, 
+        
+        {
+            "this-is-the-list-of-top-most-saled-products": {
+                "fr-lang": "Liste de produits les plus vendus",
+                "eng-lang": "This is the list of top most saled products"
+            }
+        },
+
+        {
+            "this-graph-shows-statistics-of-your-online-and-instore": {
+                "fr-lang": "Cette graphique illustre le stock en ligne et physique",
+                "eng-lang": "Instore And Online Statistics"
+            }
+        }, 
+
+        {
+            "top-5-gold-customers": {
+                "fr-lang": "Top 5 de clients d'or",
+                "eng-lang": "Top 5 gold customers"
+            }
+        }, 
+
+        {
+            "this-is-the-list-of-top-gold-customers": {
+                "fr-lang": "Liste de 10 premiers clients d'or",
+                "eng-lang": "List of Top 10 gold customers"
+            }
+        },
+
+        {
+            "products-list": {
+                "fr-lang": "Liste de Produits",
+                "eng-lang": "Products List"
+            }
+        },
+
+        {
+            "loan": {
+                "fr-lang": "Emprunt",
+                "eng-lang": "Loan"
+            }
+        },
+
+        {
+            "loans": {
+                "fr-lang": "Emprunts",
+                "eng-lang": "Loans"
+            }
+        },
+
+        {
+            "new-loan": {
+                "fr-lang": "Nouvel Emprunt",
+                "eng-lang": "New Loan"
+            }
+        },
+
+        {
+            "payback": {
+                "fr-lang": "Remboursements",
+                "eng-lang": "PayBack"
+            }
+        },
+
+        {
+            "payback-list": {
+                "fr-lang": "Liste de Remboursements",
+                "eng-lang": "PayBack List"
+            }
+        },
+
+        {
+            "payback-amount": {
+                "fr-lang": "Montant à Rembourser",
+                "eng-lang": "PayBack Amount"
+            }
+        },
+
+        {
+            "edit-payback": {
+                "fr-lang": "Modifiez le Remboursement",
+                "eng-lang": "Edit PayBack"
+            }
+        },
+
+        {
+            "save-payback": {
+                "fr-lang": "Enregistrez Le Remboursement",
+                "eng-lang": "PayBack Amount"
+            }
+        },
+
+        {
+            "new-payback": {
+                "fr-lang": "Nouveau Remboursement",
+                "eng-lang": "New PayBack"
+            }
+        },
+
+        {
+            "notifications-list": {
+                "fr-lang": "Liste de Notifications",
+                "eng-lang": "Notifications List"
+            }
+        },
+
+        {
+            "cycle": {
+                "fr-lang": "Cycle",
+                "eng-lang": "Cycle"
+            }
+        },
+
+        {
+            "cycles": {
+                "fr-lang": "Cycles",
+                "eng-lang": "Cycles"
+            }
+        },
+
+        {
+            "report": {
+                "fr-lang": "Rapport",
+                "eng-lang": "Report"
+            }
+        },
+
+        {
+            "reports": {
+                "fr-lang": "Rapports",
+                "eng-lang": "Reports"
+            }
+        },
+
+        {
+            "member": {
+                "fr-lang": "Membre",
+                "eng-lang": "Member"
+            }
+        },
+
+        {
+            "members": {
+                "fr-lang": "Membres",
+                "eng-lang": "Members"
+            }
+        },
+
+        {
+            "members-list": {
+                "fr-lang": "Liste de Membres",
+                "eng-lang": "Members List"
+            }
+        }, 
+
+        {
+            "new-member": {
+                "fr-lang": "Nouveau Membre",
+                "eng-lang": "Members List"
+            }
+        },
+
+        {
+            "interest": {
+                "fr-lang": "Intéret",
+                "eng-lang": "Interest"
+            }
+        },
+
+        {
+            "interests": {
+                "fr-lang": "Intérets",
+                "eng-lang": "Interests"
+            }
+        },
+
+        {
+            "new-cycle": {
+                "fr-lang": "Nouveau Cycle",
+                "eng-lang": "New Cycle"
+            }
+        },
+
+        {
+            "cycles-list": {
+                "fr-lang": "Liste de Cycles",
+                "eng-lang": "Cycles List"
+            }
+        },
+        
+        {
+            "cycle-duration": {
+                "fr-lang": "Durée du cycle",
+                "eng-lang": "Cycle Duration"
+            }
+        },
+        
+        {
+            "cycle-start-date": {
+                "fr-lang": "Date de début du cycle",
+                "eng-lang": "Cycle Start Date"
+            }
+        },
+
+        {
+            "new-contribution": {
+                "fr-lang": "Nouvelle Contribution",
+                "eng-lang": "New Contribution"
+            }
+        },
+
+        {
+            "contribution-amount": {
+                "fr-lang": "Montant de Contribution",
+                "eng-lang": "Contribution Amount"
+            }
+        },
+        
+        {
+            "edit-contribution": {
+                "fr-lang": "Modifiez la Contribution",
+                "eng-lang": "Edit Contribution"
+            }
+        },
+
+        {
+            "edit-loan": {
+                "fr-lang": "Modifiez l'Umprunt",
+                "eng-lang": "Edit Loan"
+            }
+        },
+
+        {
+            "loans-list": {
+                "fr-lang": "Liste des Umprunts",
+                "eng-lang": "Loans List"
+            }
+        },
+
+        {
+            "contributions-list": {
+                "fr-lang": "Liste de Contributions",
+                "eng-lang": "Contribution List"
+            }
+        },
+
+        {
+            "loan-amount": {
+                "fr-lang": "Montant d'Umprunt",
+                "eng-lang": "Loan Amount"
+            }
+        },
+
+        {
+            "loan-minimum-amount": {
+                "fr-lang": "Montant Minimum d'Umprunt",
+                "eng-lang": "Loan Minimum Amount"
+            }
+        },
+
+        {
+            "loan-maximum-amount": {
+                "fr-lang": "Montant Maximum d'Umprunt",
+                "eng-lang": "Loan Maximum Amount"
+            }
+        },
+
+        {
+            "loan-interest-rate": {
+                "fr-lang": "Intéret à payer",
+                "eng-lang": "Loan Interest Rate"
+            }
+        },
+        
+        {
+            "frequency-of-meeting": {
+                "fr-lang": "Fréquence des rencontres",
+                "eng-lang": "Frequency Of Meeting"
+            }
+        },
+
+        {
+            "meeting-type": {
+                "fr-lang": "Type des rencontres",
+                "eng-lang": "Meeting Types"
+            }
+        },
+
+        {
+            "venue-of-meeting": {
+                "fr-lang": "Endroit de rencontre",
+                "eng-lang": "Venue Of Meeting"
+            }
+        },
+        
+        {
+            "meeting-start-time": {
+                "fr-lang": "Heure de rencontre",
+                "eng-lang": "Meeting Start Time"
+            }
+        },
+
+        {
+            "welcome-to": {
+                "fr-lang": "Bienvenue à",
+                "eng-lang": "Welcome to"
+            }
+        },
+
+        {
+            "cns-store": {
+                "fr-lang": "STOCK-CNS",
+                "eng-lang": "CNS-STORE"
+            }
+        },
+        
+        {
+            "username": {
+                "fr-lang": "Nom d'utilisateur",
+                "eng-lang": "Username"
+            }
+        },
+
+        {
+            "password": {
+                "fr-lang": "Mot de passe",
+                "eng-lang": "password"
+            }
+        },
+
+        {
+            "remember-me": {
+                "fr-lang": "Se souvenir de moi",
+                "eng-lang": "Remember me"
+            }
+        },
+
+        {
+            "step": {
+                "fr-lang": "Etape",
+                "eng-lang": "Step"
+            }
+        },
+
+        {
+            "forgot-password": {
+                "fr-lang": "Mot de passe oublié",
+                "eng-lang": "Forgot password"
+            }
+        },
+
+        {
+            "request-a-new-password-bellow": {
+                "fr-lang": "Faites la demande de modification de votre mot de passe oublié",
+                "eng-lang": "Request a new password bellow"
+            }
+        },
+
+        {
+            "dont-have-an-account": {
+                "fr-lang": "Vous n'avez pas de compte",
+                "eng-lang": "Don't have an account"
+            }
+        }, 
+
+        {
+            "create-your-business-account": {
+                "fr-lang": "Créez votre compte business",
+                "eng-lang": "Create your business account"
+            }
+        }, 
+
+        {
+            "this-platform-allows-you-to-deal-with-your-purchases,-sales,-as-well-as-inventory-in-differents-branches.-guiding-you-in-getting-a-general-view-of-your-business-level.": {
+                "fr-lang": "Cette plateforme vous permet de gérer vos achats, vos ventes ainsi que vos stocks dans vos différentes branches. vous offre une vue d'ensemble de votre niveau d'activité.",
+                "eng-lang": "This platform allows you to deal with your purchases, sales, as well as inventory in different branches. guiding you in getting a general view of your business level."
+            }
+        },   
+
+        {
+            "on-time-techinical-support-for-24h/7days.-if-you-have-an-issue,-drop-us-a-line-on": {
+                "fr-lang": "Assistance technique 24h/7j. si vous avez un problème, écrivez-nous sur",
+                "eng-lang": "On time techinical support for 24h/7days. if you have an issue, drop us a line on"
+            }
+        },   
+
+        {
+            "get-access-through-the-management-system-and-manage-your-business-safely.": {
+                "fr-lang": "Accédez au système de gestion et gérez votre entreprise en toute sécurité",
+                "eng-lang": "Get access through the Management System And Manage your business Safely."
+            }
+        },   
+
+        {
+            "what-our-customer-say": {
+                "fr-lang": "Témoignages de Nos Clients",
+                "eng-lang": "What Our Customer Say"
+            }
+        },
+
+        {
+            "previous": {
+                "fr-lang": "Retour",
+                "eng-lang": "Previous"
+            }
+        },
+
+        {
+            "next": {
+                "fr-lang": "Suivant",
+                "eng-lang": "next"
+            }
+        },
+
+        {
+            "platform-information": {
+                "fr-lang": "Information de la plateforme",
+                "eng-lang": "Platform information"
+            }
+        },
+
+        {
+            "delay-penalty": {
+                "fr-lang": "Pénalité de retard",
+                "eng-lang": "Delay Penalty"
+            }
+        },
+
+        {
+            "currency": {
+                "fr-lang": "Monnaie",
+                "eng-lang": "Currency"
+            }
+        },
+       
+        {
+            "language": {
+                "fr-lang": "Langue",
+                "eng-lang": "Language"
+            }
+        },
+
+        {
+            "all-visits": {
+                "fr-lang": "Toutes les Visites",
+                "eng-lang": "All Visits"
+            }
+        },
+
+        {
+            "visits-this-year": {
+                "fr-lang": "Visites De l'année",
+                "eng-lang": "Visits This Year"
+            }
+        },
+
+        {
+            "visits-this-month": {
+                "fr-lang": "Visites Du Mois",
+                "eng-lang": "Visits This Month"
+            }
+        },
+
+        {
+            "visits-today": {
+                "fr-lang": "Visites Du Jour",
+                "eng-lang": "Visits Today"
+            }
+        },
+
+        {
+            "new-book": {
+                "fr-lang": "Nouveau Livre",
+                "eng-lang": "New Book"
+            }
+        },
+
+        {
+            "books-list": {
+                "fr-lang": "Liste de Livres",
+                "eng-lang": "Books List"
+            }
+        },   
+        
+        {
+            "eshop-information": {
+                "fr-lang": "Informations du Eshop",
+                "eng-lang": "Eshop Informations"
+            }
+        },
+
+        {
+            "book-classification": {
+                "fr-lang": "Classification du Livre",
+                "eng-lang": "Book Classification"
+            }
+        },
+
+        {
+            "book-name": {
+                "fr-lang": "Nom du Livre",
+                "eng-lang": "Book Name"
+            }
+        },
+
+        {
+            "book-sub-classification": {
+                "fr-lang": "Sous Classification Du Livre",
+                "eng-lang": "Book Sub Classification"
+            }
+        },
+
+        {
+            "book-category": {
+                "fr-lang": "Catégorie du Livre",
+                "eng-lang": "Book Category"
+            }
+        },
+
+        {
+            "book-description": {
+                "fr-lang": "Déscription du Livre",
+                "eng-lang": "Book Description"
+            }
+        },
+
+        {
+            "book-information": {
+                "fr-lang": "Informations du Livre",
+                "eng-lang": "Book Information"
+            }
+        },
+        {
+            "book-short-description": {
+                "fr-lang": "Brève Description du Livre",
+                "eng-lang": "Book Short Description"
+            }
+        },
+
+        {
+            "capitals-list": {
+                "fr-lang": "Liste de capitaux",
+                "eng-lang": "Capitals List"
+            }
+        },
+
+        {
+            "capital-designation": {
+                "fr-lang": "Désignation du capital",
+                "eng-lang": " Capital Designation"
+            }
+        },
+
+        {
+            "capital-amount": {
+                "fr-lang": "Montant du capital",
+                "eng-lang": " Capital Amount"
+            }
+        },
+
+        {
+            "capital-description": {
+                "fr-lang": "Description Du Capital",
+                "eng-lang": "Capital Description"
+            }
+        },
+        
+        {
+            "minimum-quantity-alert": {
+                "fr-lang": "Quantité Minimum d'alerte",
+                "eng-lang": "Minimum Quantity Alert"
+            }
+        },
+
+        {
+            "unjustify-absence-penalty": {
+                "fr-lang": "Pénalité d'absence injustifiée",
+                "eng-lang": "Unjustify Qbsence Penalty"
+            }
+        },
+
+        {
+            "thank-you-for-registration,-your-account-has-been-created-successfully-on-the-cns-store.-this-is-a-confirmation-notification-and-an-email-has-been-sent-to-your-inbox!": {
+                "fr-lang": "Merci pour votre inscription, votre compte a été créé avec succès sur le CNS Store. Ceci est une notification de confirmation et un e-mail a été envoyé à votre boîte de réception!",
+                "eng-lang": "Thank you for registration, your account has been created successfully on the CNS Store. This is a confirmation notification and an email has been sent to your inbox!"
+            }
+        },
+
+        {
+            "please-use-the-link-in-the-email-we've-sent-you-to-login": {
+                "fr-lang": "Veuillez utiliser le lien dans l'e-mail que nous vous avons envoyé pour vous connecter",
+                "eng-lang": "Please use the link in the email we've sent you to login"
+            }
+        },
+
+        {
+            "inventory-management-software-reduces-lead-times,-increases-efficiency-and-improves-customer-satisfaction.-this-helps-maintain-a-competitive-edge-and-generate-more-revenue-over-time.": {
+                "fr-lang": "Application de gestion des stocks, augmente l'efficacité et améliore la satisfaction des clients. Cela permet de conserver un avantage concurrentiel et de générer plus de revenus au fil du temps.",
+                "eng-lang": "Inventory management software reduces lead times, increases efficiency and improves customer satisfaction. This helps maintain a competitive edge and generate more revenue over time."
+            }
+        },
+        
+        
+
+        {
+            "footer-string": {
+                "fr-lang": "\u00a92020 All Rights Reserved. powered by <a href='cnsplateforme.com'>CNS Plateforme Incorporation.<\/a> Privacy Security Terms",
+                "eng-lang": "\u00a92020 All Rights Reserved. powered by <a href='cnsplateforme.com'>CNS Plateforme Incorporation.<\/a> Privacy Security Terms"
+            }
+        }
+    ]
+}

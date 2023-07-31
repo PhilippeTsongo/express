@@ -1,0 +1,476 @@
+# Turn Rewrite Engine On
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Accesible Index Page
+ DirectoryIndex index.php 
+ 
+ <IfModule mod_dir.c>
+    DirectoryIndex index.php
+</IfModule>
+
+#-----------------------------------------------#
+# SignIn
+#-----------------------------------------------#
+ RewriteRule ^login(/*)$ signin.php?request=signin
+
+#-----------------------------------------------#
+# SignOut
+#-----------------------------------------------#
+ RewriteRule ^logout(/*)$ index.php?request=logout
+
+#-----------------------------------------------#
+# Index
+#-----------------------------------------------#
+ RewriteRule ^dashboard(/*)$ index.php?request=dashboard
+
+
+#-----------------------------------------------#
+# CNS - Oauth
+#-----------------------------------------------#
+RewriteRule ^oauth_/([^/]+)(/*)$ oauth_.php?oauth_=$1 [L]
+RewriteRule ^oauth_/out/([^/]+)(/*)$ oauth_.php?oauth_=$1&resource_=LOGOUT  [L]
+
+
+
+
+#-----------------------------------------------#
+# Admin
+#-----------------------------------------------#
+RewriteRule ^admin(/*)$ index.php?request=list_admin
+RewriteRule ^admin/new(/*)$ index.php?request=new_admin
+RewriteRule ^admin/list(/*)$ index.php?request=list_admin
+RewriteRule ^admin/edit/([^/]+)(/*)$ index.php?request=edit_admin&token=$1
+RewriteRule ^admin/profile/([^/]+)(/*)$ index.php?request=profile_admin&token=$1
+
+#-----------------------------------------------#
+# Admin
+#-----------------------------------------------#
+RewriteRule ^agent(/*)$ index.php?request=agent_list
+RewriteRule ^delivery/agent/new(/*)$ index.php?request=new_agent
+RewriteRule ^delivery/agent/list(/*)$ index.php?request=agent_list
+RewriteRule ^delivery/agent/edit/([^/]+)(/*)$ index.php?request=edit_agent&token=$1
+RewriteRule ^delivery/agent/profile/([^/]+)(/*)$ index.php?request=profile_agent&token=$1
+
+#-----------------------------------------------#
+# Prohibited Product
+#-----------------------------------------------#
+RewriteRule ^prohibited/product(/*)$ index.php?request=prohibited_prod_list
+RewriteRule ^prohibited/product/new(/*)$ index.php?request=prohibited_prod_new
+RewriteRule ^prohibited/product/list(/*)$ index.php?request=prohibited_prod_list
+RewriteRule ^prohibited/product/edit/([^/]+)(/*)$ index.php?request=prohibited_prod_edit&token=$1
+
+#-----------------------------------------------#
+# Item Type
+#-----------------------------------------------#
+RewriteRule ^item/type(/*)$ index.php?request=item_type_list
+RewriteRule ^item/type/new(/*)$ index.php?request=item_type_new
+RewriteRule ^item/type/list(/*)$ index.php?request=item_type_list
+RewriteRule ^item/type/edit/([^/]+)(/*)$ index.php?request=item_type_edit&token=$1
+
+
+#-----------------------------------------------#
+# Ship Units
+#-----------------------------------------------#
+RewriteRule ^ship/unit(/*)$ index.php?request=ship_unit_list
+RewriteRule ^ship/unit/new(/*)$ index.php?request=ship_unit_new
+RewriteRule ^ship/unit/list(/*)$ index.php?request=ship_unit_list
+RewriteRule ^ship/unit/edit/([^/]+)(/*)$ index.php?request=ship_unit_edit&token=$1
+
+
+#-----------------------------------------------#
+# Package
+#-----------------------------------------------#
+RewriteRule ^package/(/*)$ index.php?request=package_list
+RewriteRule ^package/new(/*)$ index.php?request=package_new
+RewriteRule ^package/list(/*)$ index.php?request=package_list
+RewriteRule ^package/edit/([^/]+)(/*)$ index.php?request=package_edit&token=$1
+
+
+#-----------------------------------------------#
+# Item Package
+#-----------------------------------------------#
+RewriteRule ^package/type(/*)$ index.php?request=package_type_list
+RewriteRule ^package/type/new(/*)$ index.php?request=package_type_new
+RewriteRule ^package/type/list(/*)$ index.php?request=package_type_list
+RewriteRule ^package_type/edit/([^/]+)(/*)$ index.php?request=package_type_edit&token=$1
+
+
+#-----------------------------------------------#
+# Partners
+#-----------------------------------------------#
+RewriteRule ^partners(/*)$ index.php?request=partners
+RewriteRule ^partners/list(/*)$ index.php?request=partners
+RewriteRule ^partners/new(/*)$ index.php?request=new_partner
+RewriteRule ^partners/edit/([^/]+)(/*)$ index.php?request=edit_partner&token=$1
+
+#-----------------------------------------------#
+# Customers
+#-----------------------------------------------#
+RewriteRule ^customers(/*)$ index.php?request=customers
+
+#-----------------------------------------------#
+# Shipment
+#-----------------------------------------------#
+RewriteRule ^ship/list(/*)$ index.php?request=ship_list
+RewriteRule ^ship/new(/*)$ index.php?request=ship_new
+RewriteRule ^ship/edit/([^/]+)(/*)$ index.php?request=ship_edit&token=$1
+RewriteRule ^ship/detail/([^/]+)(/*)$ index.php?request=ship_detail&token=$1
+
+
+#-----------------------------------------------#
+# Shipment Cost Item
+#-----------------------------------------------#
+RewriteRule ^ship/cost/item(/*)$ index.php?request=ship_cost_item
+RewriteRule ^ship/cost/item/new(/*)$ index.php?request=ship_cost_item_new
+RewriteRule ^ship/cost/item/list(/*)$ index.php?request=ship_cost_item_list
+
+
+#-----------------------------------------------#
+# Shipment Cost
+#-----------------------------------------------#
+
+RewriteRule ^ship/cost(/*)$ index.php?request=ship_cost
+RewriteRule ^ship/cost/new(/*)$ index.php?request=ship_cost_new
+RewriteRule ^ship/cost/list(/*)$ index.php?request=ship_cost_list
+
+#-----------------------------------------------#
+# Shipment Item
+#-----------------------------------------------#
+RewriteRule ^ship/item(/*)$ index.php?request=ship_item
+
+#-----------------------------------------------#
+# Ship purpose
+#-----------------------------------------------#
+RewriteRule ^ship/purpose(/*)$ index.php?request=ship_purpose
+RewriteRule ^ship/purpose/new(/*)$ index.php?request=ship_purpose_new
+RewriteRule ^ship/purpose/list(/*)$ index.php?request=ship_purpose_list
+RewriteRule ^ship/purpose/edit/([^/]+)(/*)$ index.php?request=ship_purpose_edit&token=$1
+
+
+#-----------------------------------------------#
+# About
+#-----------------------------------------------#
+RewriteRule ^about(/*)$ index.php?request=view_about
+RewriteRule ^about/new(/*)$ index.php?request=new_about
+RewriteRule ^about/view(/*)$ index.php?request=view_about
+RewriteRule ^about/edit/([^/]+)(/*)$ index.php?request=edit_about&token=$1
+RewriteRule ^about/profile/([^/]+)(/*)$ index.php?request=profile_about&token=$1
+
+#-----------------------------------------------#
+# Article
+#-----------------------------------------------#
+RewriteRule ^article(/*)$ index.php?request=list_article
+RewriteRule ^article/new(/*)$ index.php?request=new_article
+RewriteRule ^article/list(/*)$ index.php?request=list_article
+RewriteRule ^article/edit/([^/]+)(/*)$ index.php?request=edit_article&token=$1
+RewriteRule ^article/profile/([^/]+)(/*)$ index.php?request=profile_article&token=$1
+RewriteRule ^article/comments/([^/]+)(/*)$ index.php?request=list_article_comments&token=$1
+
+#-----------------------------------------------#
+# Event
+#-----------------------------------------------#
+RewriteRule ^event(/*)$ index.php?request=list_event
+RewriteRule ^event/new(/*)$ index.php?request=new_event
+RewriteRule ^event/list(/*)$ index.php?request=list_event
+RewriteRule ^event/edit/([^/]+)(/*)$ index.php?request=edit_event&token=$1
+RewriteRule ^event/profile/([^/]+)(/*)$ index.php?request=profile_event&token=$1
+
+#-----------------------------------------------#
+# Product
+#-----------------------------------------------#
+RewriteRule ^product(/*)$ index.php?request=list_product
+RewriteRule ^product/new(/*)$ index.php?request=new_product
+RewriteRule ^product/list(/*)$ index.php?request=list_product
+RewriteRule ^product/edit/([^/]+)(/*)$ index.php?request=edit_product&token=$1
+RewriteRule ^product/profile/([^/]+)(/*)$ index.php?request=profile_product&token=$1
+
+#-----------------------------------------------#
+# Service
+#-----------------------------------------------#
+RewriteRule ^service(/*)$ index.php?request=list_service
+RewriteRule ^service/new(/*)$ index.php?request=new_service
+RewriteRule ^service/list(/*)$ index.php?request=list_service
+RewriteRule ^service/edit/([^/]+)(/*)$ index.php?request=edit_service&token=$1
+RewriteRule ^service/profile/([^/]+)(/*)$ index.php?request=profile_service&token=$1
+
+
+#-----------------------------------------------#
+# Product
+#-----------------------------------------------#
+RewriteRule ^partner(/*)$ index.php?request=list_partner
+RewriteRule ^partner/new(/*)$ index.php?request=new_partner
+RewriteRule ^partner/list(/*)$ index.php?request=list_partner
+RewriteRule ^partner/edit/([^/]+)(/*)$ index.php?request=edit_partner&token=$1
+RewriteRule ^partner/profile/([^/]+)(/*)$ index.php?request=profile_partner&token=$1
+
+#-----------------------------------------------#
+# Team
+#-----------------------------------------------#
+RewriteRule ^team(/*)$ index.php?request=list_team
+RewriteRule ^team/new(/*)$ index.php?request=new_team
+RewriteRule ^team/list(/*)$ index.php?request=list_team
+RewriteRule ^team/edit/([^/]+)(/*)$ index.php?request=edit_team&token=$1
+RewriteRule ^team/profile/([^/]+)(/*)$ index.php?request=profile_team&token=$1
+
+#-----------------------------------------------#
+# Mission
+#-----------------------------------------------#
+RewriteRule ^mission(/*)$ index.php?request=list_mission
+RewriteRule ^mission/new(/*)$ index.php?request=new_mission
+RewriteRule ^mission/list(/*)$ index.php?request=list_mission
+RewriteRule ^mission/edit/([^/]+)(/*)$ index.php?request=edit_mission&token=$1
+RewriteRule ^mission/profile/([^/]+)(/*)$ index.php?request=profile_mission&token=$1
+
+#-----------------------------------------------#
+# Testimonial
+#-----------------------------------------------#
+RewriteRule ^testimonial(/*)$ index.php?request=list_testimonial
+RewriteRule ^testimonial/new(/*)$ index.php?request=new_testimonial
+RewriteRule ^testimonial/list(/*)$ index.php?request=list_testimonial
+RewriteRule ^testimonial/edit/([^/]+)(/*)$ index.php?request=edit_testimonial&token=$1
+RewriteRule ^testimonial/profile/([^/]+)(/*)$ index.php?request=profile_testimonial&token=$1
+
+#-----------------------------------------------#
+# Gallery
+#-----------------------------------------------#
+RewriteRule ^gallery(/*)$ index.php?request=list_gallery
+RewriteRule ^gallery/new(/*)$ index.php?request=new_gallery
+RewriteRule ^gallery/list(/*)$ index.php?request=list_gallery
+RewriteRule ^gallery/edit/([^/]+)(/*)$ index.php?request=edit_gallery&token=$1
+RewriteRule ^gallery/profile/([^/]+)(/*)$ index.php?request=profile_gallery&token=$1
+
+
+#-----------------------------------------------#
+# Source country
+#-----------------------------------------------#
+RewriteRule ^source/country(/*)$ index.php?request=source_country
+RewriteRule ^source/country/new(/*)$ index.php?request=new_source_country
+RewriteRule ^source/country/list(/*)$ index.php?request=source_country_list
+RewriteRule ^source/country/edit/([^/]+)(/*)$ index.php?request=edit_source_country&token=$1
+RewriteRule ^source/country/profile/([^/]+)(/*)$ index.php?request=profile_source_country&token=$1
+
+#-----------------------------------------------#
+# Destination country
+#-----------------------------------------------#
+RewriteRule ^destination/country(/*)$ index.php?request=destination_country
+RewriteRule ^destination/country/new(/*)$ index.php?request=new_destination_country
+RewriteRule ^destination/country/list(/*)$ index.php?request=destination_country_list
+RewriteRule ^destination/country/edit/([^/]+)(/*)$ index.php?request=edit_destination_country&token=$1
+RewriteRule ^destination/country/profile/([^/]+)(/*)$ index.php?request=profile_destination_country&token=$1
+
+
+#-----------------------------------------------#
+# Contact Us Request
+#-----------------------------------------------#
+RewriteRule ^contact/us/requests(/*)$ index.php?request=list_contact_us_requests
+RewriteRule ^contact/us/requests/list(/*)$ index.php?request=list_contact_us_requests
+#-----------------------------------------------#
+# Set Captcha 
+#-----------------------------------------------#
+RewriteRule ^loadcaptcha/([0-9]+)$ config/captch/get_captcha.php?rand=$1 [L]
+
+#-----------------------------------------------#
+# Set ERROR 404 page
+#-----------------------------------------------#
+ RewriteRule ^404(/*)$ views/404.php
+
+#-----------------------------------------------#
+# Set Gateway API CTRL
+#-----------------------------------------------#
+RewriteRule ^master/webservice/v1(/*)$ app/controller_api.php
+RewriteRule ^ctrlAPI(/*)$ app/controller_api.php
+RewriteRule ^ctrlUp(/*)$ app/controller_ajax.php
+RewriteRule ^ctrlApi(/*)$ app/controller_ajax_api.php
+RewriteRule ^ctrlAuth(/*)$ app/controller_login.php
+  
+
+#-----------------------------------------------#
+
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^(.*)$ $1.php
+
+
+
+
+# RewriteBase /
+RewriteCond %{HTTP_USER_AGENT} almaden [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Anarchie [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ASPSeek [OR]
+RewriteCond %{HTTP_USER_AGENT} ^attach [OR]
+RewriteCond %{HTTP_USER_AGENT} ^autoemailspider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^BackWeb [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Bandit [OR]
+RewriteCond %{HTTP_USER_AGENT} ^BatchFTP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^BlackWidow [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Bot\ mailto:craftbot@yahoo.com [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Buddy [OR]
+RewriteCond %{HTTP_USER_AGENT} ^bumblebee [OR]
+RewriteCond %{HTTP_USER_AGENT} ^CherryPicker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ChinaClaw [OR]
+RewriteCond %{HTTP_USER_AGENT} ^CICC [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Collector [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Copier [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Crescent [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Custo [OR]
+RewriteCond %{HTTP_USER_AGENT} ^DA [OR]
+RewriteCond %{HTTP_USER_AGENT} ^DIIbot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^DISCo [OR]
+RewriteCond %{HTTP_USER_AGENT} ^DISCo\ Pump [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Download\ Demon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Download\ Wonder [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Downloader [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Drip [OR]
+RewriteCond %{HTTP_USER_AGENT} ^DSurf15a [OR]
+RewriteCond %{HTTP_USER_AGENT} ^eCatch [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EasyDL/2.99 [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EirGrabber [OR]
+RewriteCond %{HTTP_USER_AGENT} email [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^EmailCollector [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EmailSiphon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EmailWolf [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Express\ WebPictures [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ExtractorPro [OR]
+RewriteCond %{HTTP_USER_AGENT} ^EyeNetIE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^FileHound [OR]
+RewriteCond %{HTTP_USER_AGENT} ^FlashGet [OR]
+RewriteCond %{HTTP_USER_AGENT} FrontPage [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^GetRight [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GetSmart [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GetWeb! [OR]
+RewriteCond %{HTTP_USER_AGENT} ^gigabaz [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Go\!Zilla [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Go!Zilla [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Go-Ahead-Got-It [OR]
+RewriteCond %{HTTP_USER_AGENT} ^gotit [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Grabber [OR]
+RewriteCond %{HTTP_USER_AGENT} ^GrabNet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Grafula [OR]
+RewriteCond %{HTTP_USER_AGENT} ^grub-client [OR]
+RewriteCond %{HTTP_USER_AGENT} ^HMView [OR]
+RewriteCond %{HTTP_USER_AGENT} ^HTTrack [OR]
+RewriteCond %{HTTP_USER_AGENT} ^httpdown [OR]
+RewriteCond %{HTTP_USER_AGENT} .*httrack.* [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^ia_archiver [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Stripper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Image\ Sucker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Indy*Library [OR]
+RewriteCond %{HTTP_USER_AGENT} Indy\ Library [NC,OR]
+RewriteCond %{HTTP_USER_AGENT} ^InterGET [OR]
+RewriteCond %{HTTP_USER_AGENT} ^InternetLinkagent [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Internet\ Ninja [OR]
+RewriteCond %{HTTP_USER_AGENT} ^InternetSeer.com [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Iria [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JBH*agent [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JetCar [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JOC\ Web\ Spider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^JustView [OR]
+RewriteCond %{HTTP_USER_AGENT} ^larbin [OR]
+RewriteCond %{HTTP_USER_AGENT} ^LeechFTP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^LexiBot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^lftp [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Link*Sleuth [OR]
+RewriteCond %{HTTP_USER_AGENT} ^likse [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Link [OR]
+RewriteCond %{HTTP_USER_AGENT} ^LinkWalker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mag-Net [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Magnet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mass\ Downloader [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Memo [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Microsoft.URL [OR]
+RewriteCond %{HTTP_USER_AGENT} ^MIDown\ tool [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mirror [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mister\ PiX [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla.*Indy [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla.*NEWT [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Mozilla*MSIECrawler [OR]
+RewriteCond %{HTTP_USER_AGENT} ^MS\ FrontPage* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^MSFrontPage [OR]
+RewriteCond %{HTTP_USER_AGENT} ^MSIECrawler [OR]
+RewriteCond %{HTTP_USER_AGENT} ^MSProxy [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Navroad [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NearSite [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetAnts [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetMechanic [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Net\ Vampire [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NetZIP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^NICErsPRO [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Ninja [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Octopus [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Explorer [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Offline\ Navigator [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Openfind [OR]
+RewriteCond %{HTTP_USER_AGENT} ^PageGrabber [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Papa\ Foto [OR]
+RewriteCond %{HTTP_USER_AGENT} ^pavuk [OR]
+RewriteCond %{HTTP_USER_AGENT} ^pcBrowser [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Ping [OR]
+RewriteCond %{HTTP_USER_AGENT} ^PingALink [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Pockey [OR]
+RewriteCond %{HTTP_USER_AGENT} ^psbot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Pump [OR]
+RewriteCond %{HTTP_USER_AGENT} ^QRVA [OR]
+RewriteCond %{HTTP_USER_AGENT} ^RealDownload [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Reaper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Recorder [OR]
+RewriteCond %{HTTP_USER_AGENT} ^ReGet [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Scooter [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Seeker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Siphon [OR]
+RewriteCond %{HTTP_USER_AGENT} ^sitecheck.internetseer.com [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SiteSnagger [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SlySearch [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SmartDownload [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Snake [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SpaceBison [OR]
+RewriteCond %{HTTP_USER_AGENT} ^sproose [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Stripper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Sucker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SuperBot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^SuperHTTP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Surfbot [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Szukacz [OR]
+RewriteCond %{HTTP_USER_AGENT} ^tAkeOut [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Teleport\ Pro [OR]
+RewriteCond %{HTTP_USER_AGENT} ^URLSpiderPro [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Vacuum [OR]
+RewriteCond %{HTTP_USER_AGENT} ^VoidEYE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Image\ Collector [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Sucker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebAuto [OR]
+RewriteCond %{HTTP_USER_AGENT} ^[Ww]eb[Bb]andit [OR]
+RewriteCond %{HTTP_USER_AGENT} ^webcollage [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebCopier [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Web\ Downloader [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebEMailExtrac.* [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebFetch [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebGo\ IS [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebHook [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebLeacher [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebMiner [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebMirror [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebReaper [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebSauger [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Website [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Website\ eXtractor [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Website\ Quester [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Webster [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebStripper [OR]
+RewriteCond %{HTTP_USER_AGENT} WebWhacker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WebZIP [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Wget [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Whacker [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Widow [OR]
+RewriteCond %{HTTP_USER_AGENT} ^WWWOFFLE [OR]
+RewriteCond %{HTTP_USER_AGENT} ^x-Tractor [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xaldon\ WebSpider [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Xenu [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus.*Webster [OR]
+RewriteCond %{HTTP_USER_AGENT} ^Zeus
+#RewriteRule ^.* – [F,L]
+
